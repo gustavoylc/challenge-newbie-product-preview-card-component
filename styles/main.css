@@ -1,0 +1,116 @@
+:root {
+	--dark-cyan: hsl(158, 36%, 37%);
+	--very-dark-cyan: #1a4031;
+	--cream: hsl(30, 38%, 92%);
+	--very-dark-blue: hsl(212, 21%, 14%);
+	--dark-grayish-blue: hsl(228, 12%, 48%);
+	--white: hsl(0, 0%, 100%);
+	--font-family-title: "Fraunces", serif;
+	--font-family-text: "Montserrat", sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--cream);
+	color: var(--dark-grayish-blue);
+	font-size: 0.875rem;
+	min-width: 375px;
+	font-weight: 500;
+	font-family: var(--font-family-text);
+}
+
+h1 {
+	font-family: var(--font-family-title);
+	font-weight: 700;
+	font-size: 2.3em;
+	line-height: 1;
+	color: var(--very-dark-blue);
+}
+
+.card {
+	height: 611px;
+	width: 343px;
+	margin: 28px auto;
+	border-radius: 10px;
+	background-color: var(--white);
+	overflow: hidden;
+}
+
+.card__image-container__img {
+	width: 100%;
+	border-radius: inherit;
+}
+
+.card__content-container {
+	padding: 25px;
+}
+
+.card__content-container h4 {
+	letter-spacing: 4px;
+}
+
+.card__content-container h1 {
+	margin: 14px 0;
+}
+
+.card__content-container p {
+	line-height: 1.5;
+}
+
+.card__content-container__price-container {
+	margin: 15px 0 10px 0;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.card__content-container__price-container__price {
+	color: var(--dark-cyan);
+	font-family: var(--font-family-title);
+	font-weight: 700;
+	font-size: 2.2rem;
+}
+
+.card__content-container__price-container__discount {
+	margin-left: 10px;
+	text-decoration: line-through;
+}
+
+.card__content-container__button {
+	background-color: var(--dark-cyan);
+	color: var(--white);
+	border: none;
+	border-radius: 10px;
+	width: 293px;
+	height: 50px;
+	font-weight: 700;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.95rem;
+}
+
+.card__content-container__button:hover {
+	cursor: pointer;
+	background-color: var(--very-dark-cyan);
+}
+
+.card__content-container__button__icon {
+	width: 18px;
+	height: 18px;
+	margin-right: 10px;
+}
+
+.footer__container {
+	font-size: 11px;
+	text-align: center;
+	margin: 20px auto;
+}
+.footer__container a {
+	color: hsl(228, 45%, 44%);
+}

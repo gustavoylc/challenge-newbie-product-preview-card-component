@@ -1,0 +1,36 @@
+.section-container{
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+
+.card {
+	display: flex;
+    flex-direction: row;
+	width: 600px;
+	height: 450px;
+}
+
+.card__image-container__img {
+	content: url(../images/image-product-desktop.jpg);
+}
+
+.card__content-container {
+	width: 300px;
+	padding: 35px;	
+}
+
+.card__content-container__button {
+	width: 230px;
+}
+
+.card__content-container__price-container__price {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.footer-container{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

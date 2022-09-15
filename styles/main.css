@@ -24,9 +24,9 @@ body {
 	font-family: var(--font-family-text);
 }
 
-.section-container{
-    display: grid;
-    place-content: center;
+.section-container {
+	display: grid;
+	place-content: center;
 }
 
 h1 {
@@ -48,7 +48,7 @@ h1 {
 
 .card__image-container__img {
 	width: 100%;
-	border-radius: inherit;
+	height: auto;
 }
 
 .card__content-container {
